@@ -9,7 +9,6 @@
     "build": "webpack --config webpack.config.ts"
   },
   "files": [
-    "bin",
     "dist",
     "typings"
   ],
