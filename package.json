@@ -1,0 +1,36 @@
+{
+  "name": "zip-des",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "typings": "typings/index.d.ts",
+  "scripts": {
+    "test": "nyc mocha",
+    "build": "webpack --config webpack.config.ts"
+  },
+  "files": [
+    "bin",
+    "dist",
+    "typings"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/adm-zip": "^0.4.33",
+    "@types/chai": "^4.2.7",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^13.1.8",
+    "@types/webpack": "^4.41.2",
+    "adm-zip": "^0.4.16",
+    "chai": "^4.2.0",
+    "mocha": "^7.0.0",
+    "nyc": "^15.0.0",
+    "path-files": "^1.0.10",
+    "ts-loader": "^6.2.1",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
